@@ -1,0 +1,219 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Unknown language: 0x22, 0x1 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_UKR)
+#ifdef _WIN32
+LANGUAGE 0x22, 0x1
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\UMXPlayer.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\UMXPlayer.ico"
+#endif    // Unknown language: 0x22, 0x1 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_UMXPLAYER_DIALOG DIALOGEX 0, 0, 287, 133
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "UMX Player"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Music Track",IDC_STATIC,13,7,70,79
+    CONTROL         "Ambient",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_DISABLED,18,15,58,12
+    CONTROL         "Ambient #2",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON | 
+                    WS_DISABLED,17,37,58,12
+    CONTROL         "Death",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON | 
+                    WS_DISABLED,18,26,58,12
+    CONTROL         "Combat",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON | 
+                    WS_DISABLED,17,47,58,12
+    CONTROL         "Conversation",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON | 
+                    WS_DISABLED,17,58,58,12
+    LTEXT           "Created by Sergi4UA 2019, uses the BASSMOD library by Un4Seen Developments https://sergi4ua.com - Version 1.1",
+                    IDC_STATIC,7,105,273,21
+    LTEXT           "File:",IDC_STATIC,91,13,15,8
+    CONTROL         "Not Opened",IDC_FILENAME,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,108,13,172,9
+    PUSHBUTTON      "Open UMX...",IDC_BUTTON1,93,22,50,13
+    PUSHBUTTON      "Pause",IDC_PAUSEBTN,175,23,27,13,WS_DISABLED
+    PUSHBUTTON      "Play",IDC_PLAYBTN,145,23,27,13,WS_DISABLED
+    PUSHBUTTON      "Stop",IDC_STOPBTN,204,23,27,13,WS_DISABLED
+    LTEXT           "Device:",IDC_STATIC,7,95,26,9
+    CONTROL         "Invalid dgdgggggggggggggggggggggggggggggggggggggggggggggggggggg",
+                    IDC_DEVICECAPTION,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,
+                    35,95,245,10,WS_EX_STATICEDGE
+    LTEXT           "Music Info:",IDC_STATIC,87,39,187,9
+    LTEXT           "Name:",IDC_STATIC,87,49,24,8
+    CONTROL         "Not Opened",IDC_MODNAME,"Static",SS_LEFTNOWORDWRAP | 
+                    SS_NOPREFIX | WS_GROUP,113,49,161,9
+    LTEXT           "MusPos:",IDC_STATIC,87,59,30,9
+    CONTROL         "Not Opened",IDC_MUSPOS,"Static",SS_LEFTNOWORDWRAP | 
+                    SS_NOPREFIX | WS_GROUP,118,59,158,13
+    CONTROL         "Reset Notes",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,221,82,53,10
+    CONTROL         "Outro",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON | 
+                    WS_DISABLED,17,71,58,11
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "UMXPlayer MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "UMXPlayer\0"
+            VALUE "LegalCopyright", "Copyright (C) 2019\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "UMXPlayer.EXE\0"
+            VALUE "ProductName", "UMXPlayer Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_UMXPLAYER_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 280
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 126
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\UMXPlayer.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
