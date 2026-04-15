@@ -1,3 +1,5 @@
+# This application is obsolete and may get falsely detected by Windows Defender as a keygen. Please use better programs like OpenMPT instead.
+
 # UMX Player
 UMX Music Player. Supports Deus Ex, Unreal Gold, Unreal Tournament, etc.
 
